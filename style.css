@@ -38,7 +38,6 @@
 
     height: 30px;
     width: 30px;
-    background-color: #cbcbcb;
     text-align: center;
     font-size: 15px;
     padding-top: 5px;
@@ -93,8 +92,56 @@
 
 }
 
-.full :hover{
+.full{
 
-    background-color: transparent;
+    border: outset 2px white;
+    background: #E6E6E6;
+    color: transparent;
 
 }
+
+.full:hover{
+
+    border: dashed 1px black;
+    background-color: #cbcbcb;
+    border: 0px;
+    
+
+}
+
+.ghostb .ghostr .ghostg{
+
+    opacity: 0;
+    
+
+}
+
+.ghostb:hover{
+
+    opacity: 1;
+    color: blue;
+    font-weight: bold;
+    
+    
+}
+
+.ghostr:hover{
+
+    opacity: 1;
+    color: red;
+    font-weight: bold;
+    
+}
+
+.ghostg:hover{
+
+    opacity: 1;
+    color: green;
+    font-weight: bold;
+    
+
+}
+
+
+
+
